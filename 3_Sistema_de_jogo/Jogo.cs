@@ -1,7 +1,7 @@
 
 namespace ExerciciosPilaresPOO
 {
-    public class Jogo
+    public abstract class Jogo
     {
         public string? Nome { get; set; }
 
@@ -15,8 +15,7 @@ namespace ExerciciosPilaresPOO
 
         public virtual void ExibirInformacoes()
         {
-            Console.WriteLine($"Nome: {Nome}");
-            Console.WriteLine($"Plataforma: {Plataforma}");
+
         }
     }
 }

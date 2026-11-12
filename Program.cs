@@ -21,3 +21,11 @@
 //    curso.ExibirInformacoes();
 
 //*3. Sistema de jogos
+
+//  Jogo jogo1 = new JogoDigital("Hollow Knight", "PS4", "9");
+//             Jogo jogo2 = new JogoFisico("God of War Ragnarök", "PS5", "DISCO");
+
+//             jogo1.ExibirInformacoes();
+//             jogo2.ExibirInformacoes();
+
+//*4. Sistema de notificações
