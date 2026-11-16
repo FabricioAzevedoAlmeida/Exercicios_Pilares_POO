@@ -21,7 +21,6 @@
 //    curso.ExibirInformacoes();
 
 //*3. Sistema de jogos
-
 //  Jogo jogo1 = new JogoDigital("Hollow Knight", "PS4", "9");
 //             Jogo jogo2 = new JogoFisico("God of War Ragnarök", "PS5", "DISCO");
 
@@ -29,3 +28,36 @@
 //             jogo2.ExibirInformacoes();
 
 //*4. Sistema de notificações
+// List<Notificacao> filaDeEnvio = new List<Notificacao>
+//             {
+//                 new Notificacao("Sistema", "Teste de conexão."),
+//                 new NotificacaoEmail("usuario126@email.com", "Seu email chegou!"),
+//                 new NotificacaoSMS("+55 11 99999-9999", "Seu código de verificação é 6584."),
+//                 new NotificacaoPush("usuario_123", "Você recebeu uma nova curtida.")
+//             };
+
+//             foreach (var notificacao in filaDeEnvio)
+//             {
+//                 notificacao.Enviar();
+//             }
+
+//*5. Sistema de cálculo de frete
+//  List<Entrega> entregas = new List<Entrega>
+//         {
+//             new EntregaExpressa { Distancia = 10 },
+//             new EntregaEconomica { Distancia = 10 },
+//             new RetiradaLocal { Distancia = 10 }
+//         };
+
+//         foreach (Entrega e in entregas)
+//         {
+//             Console.WriteLine($"Frete: R$ {e.CalcularFrete()}");
+//         }
+
+//*6. Sistema de documentos
+Relatorio relatorio = new Relatorio();
+        relatorio.Imprimir();
+        relatorio.Exportar();
+
+        Contrato contrato = new Contrato();
+        contrato.Imprimir();
