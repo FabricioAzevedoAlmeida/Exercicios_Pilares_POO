@@ -55,9 +55,30 @@
 //         }
 
 //*6. Sistema de documentos
-Relatorio relatorio = new Relatorio();
-        relatorio.Imprimir();
-        relatorio.Exportar();
+// Relatorio relatorio = new Relatorio();
+//         relatorio.Imprimir();
+//         relatorio.Exportar();
 
-        Contrato contrato = new Contrato();
-        contrato.Imprimir();
+//         Contrato contrato = new Contrato();
+//         contrato.Imprimir();
+
+//*7. Sistema de equipamentos
+// Notebook nb = new Notebook("Dell", "123A", 16);
+// Smartphone sp = new Smartphone("Samsung", "456B", 256);
+
+// nb.ExibirInformacoes();
+// sp.ExibirInformacoes();
+
+//*8. Sistema de animais
+// List<Animal> animais = new List<Animal>
+// {
+//     new Cachorro("Cachorro"),
+//     new Gato("Gato"),
+//     new Passaro("Passaro")
+// };
+
+// foreach (Animal animal in animais)
+// {
+//     animal.Apresentar();
+//     animal.EmitirSom();
+// }
